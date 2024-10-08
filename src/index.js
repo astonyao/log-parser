@@ -12,7 +12,7 @@ fs.readFile(LOG_FILE_PATH, "utf8", (err, data) => {
 
   // Part 1: The number of unique IP addresses
   const uniqueIPCount = LogService.countUniqueIPsFromLogData(data);
-  console.log(`Number of unique IP addresses: ${uniqueIPCount}`);
+  console.log(`Number of unique IP addresses: ${uniqueIPCount} \n`);
 
   // Part 2: The top 3 most visited URLs
   const topURLs = LogService.findTopURLs(data);

@@ -46,4 +46,5 @@ module.exports = {
   countUniqueIPsFromLogData,
   findTopIPs,
   findTopURLs,
+  findTopOccurrences,
 };
